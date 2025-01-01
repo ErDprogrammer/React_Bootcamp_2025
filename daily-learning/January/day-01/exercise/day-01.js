@@ -1,0 +1,1 @@
+const day01 = "The first day of our class";
