@@ -1,2 +1,2 @@
-const keepStreakGoing = () => console.log("Streak continues 21!");
+const keepStreakGoing = () => console.log("Streak continues 20!");
 keepStreakGoing();
