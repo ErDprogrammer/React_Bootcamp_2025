@@ -7,6 +7,17 @@ let: This is block-scoped, meaning it only exists inside the {} block where it�
 
 const: Just like let, it’s block-scoped. However, it cannot be reassigned or re-declared once assigned. It must be initialized at the time of declaration. If you try to access it before declaration, you’ll get an error.
 `;
+var x = 10;
+let y = 20;
+const z = 30;
+
+if (true) {
+    var x = 40;  // Allowed: var is function-scoped
+    let y = 50;  // New variable inside this block
+}
+
+console.log(x); // 40 (var changes everywhere in the function)
+console.log(y); // 20 (let remains the same outside the block)
 
 // what are primitive data types in javascript ? list them with examples
 
