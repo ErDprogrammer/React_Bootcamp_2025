@@ -10,8 +10,7 @@ function confirmPayment(balance) {
     });
   }
   
-  // Usage
-  confirmPayment(120)
+   confirmPayment(120)
     .then((message) => {
       console.log("Success:", message);
     })
